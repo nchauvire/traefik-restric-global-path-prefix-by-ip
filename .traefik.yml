@@ -1,0 +1,13 @@
+displayName: Conditionnal middleware
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/nchauvire/traefik-restric-global-path-prefix-by-ip
+
+summary: 'Allow only ip list to access path prefix for all router'
+
+testData:
+  range-ip:
+    - x.x.x.x
+    - x.x.x.x
+  path-prefix: "/foo"
