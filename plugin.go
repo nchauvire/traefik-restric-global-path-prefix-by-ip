@@ -7,7 +7,7 @@ import (
 )
 
 type Config struct {
-  SourceRange []string `json:"ipRange"`
+  SourceRange []string `json:"sourceRange"`
   PathPrefix  string   `json:"pathPrefix"`
 }
 
